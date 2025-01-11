@@ -10,8 +10,10 @@ Source0:	https://github.com/hyprwm/hyprlang/archive/v%{version}/%{name}-v%{versi
 Patch0:		flags.patch
 URL:		https://hyprland.org/
 BuildRequires:	cmake >= 3.19
+BuildRequires:	hyprutils-devel >= 0.1.1
 BuildRequires:	libstdc++-devel >= 6:11
 BuildRequires:	rpmbuild(macros) >= 1.605
+Requires:	hyprutils >= 0.1.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
