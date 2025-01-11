@@ -1,12 +1,12 @@
 Summary:	The official implementation library for the hypr config language
 Name:		hyprlang
-Version:	0.5.2
+Version:	0.6.0
 Release:	1
 License:	LGPL v3
 Group:		Libraries
 #Source0Download: https://github.com/hyprwm/hyprlang/releases
 Source0:	https://github.com/hyprwm/hyprlang/archive/v%{version}/%{name}-v%{version}.tar.gz
-# Source0-md5:	e73e0ec151a0d2d3623baccb49566e0a
+# Source0-md5:	67e4cf2749c2383434fdb61d6b619803
 Patch0:		flags.patch
 URL:		https://hyprland.org/
 BuildRequires:	cmake >= 3.19
