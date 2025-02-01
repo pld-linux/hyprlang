@@ -1,7 +1,7 @@
 Summary:	The official implementation library for the hypr config language
 Name:		hyprlang
 Version:	0.6.0
-Release:	1
+Release:	2
 License:	LGPL v3
 Group:		Libraries
 #Source0Download: https://github.com/hyprwm/hyprlang/releases
